@@ -1,0 +1,97 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ActAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/hold</item>
+        <item name="android:activityCloseEnterAnimation">@anim/hold</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="Btn">
+        <item name="android:textScaleX">0.9</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Btn.Menu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/dimen_textsize_menu</item>
+        <item name="android:textColor">@color/color_btn_text</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:background">@drawable/btn_menu</item>
+        <item name="android:paddingLeft">@dimen/dimen_menu_padding</item>
+    </style>
+
+    <style name="Btn.Menu.01">
+        <item name="android:text">@string/menu_item_01</item>
+        <item name="android:drawableLeft">@drawable/ic_menu_type_01</item>
+    </style>
+
+    <style name="Btn.Menu.02">
+        <item name="android:text">@string/menu_item_02</item>
+        <item name="android:drawableLeft">@drawable/ic_menu_type_02</item>
+    </style>
+
+    <style name="Btn.Menu.03">
+        <item name="android:text">@string/menu_item_03</item>
+        <item name="android:drawableLeft">@drawable/ic_menu_type_03</item>
+    </style>
+
+    <style name="Btn.Menu.04">
+        <item name="android:text">@string/menu_item_04</item>
+        <item name="android:drawableLeft">@drawable/ic_menu_type_04</item>
+    </style>
+
+    <style name="Btn.Menu.05">
+        <item name="android:text">@string/menu_item_05</item>
+        <item name="android:drawableLeft">@drawable/ic_menu_type_05</item>
+    </style>
+
+    <style name="Btn.Menu.06">
+        <item name="android:text">@string/menu_item_06</item>
+        <item name="android:drawableLeft">@drawable/ic_menu_type_06</item>
+    </style>
+
+    <style name="Btn.Menu.search">
+        <item name="android:drawableLeft">@drawable/btn_search</item>
+    </style>
+    
+    <style name="Btn.Menu.edit">
+        <item name="android:drawableLeft">@drawable/btn_edit</item>
+    </style>
+    
+    <style name="Btn.Menu.trash">
+        <item name="android:drawableLeft">@drawable/btn_trash</item>
+    </style>
+    
+    <style name="Btn.Menu.add">
+        <item name="android:drawableLeft">@drawable/btn_add</item>
+    </style>
+    
+    <style name="Btn.Menu.check">
+        <item name="android:drawableLeft">@drawable/btn_check</item>
+    </style>
+        <style name="Btn.Menu.bookmark">
+        <item name="android:drawableLeft">@drawable/btn_nmap_bookmark</item>
+    </style>
+    <style name="Btn.Menu.marker">
+        <item name="android:drawableLeft">@drawable/btn_marker</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:textScaleX">1</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView.Fragment">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dimen_content_padding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/dimen_textsize_title</item>
+    </style>
+
+</resources>

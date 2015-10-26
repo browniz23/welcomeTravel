@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/img_dialog_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_dialog_bookmark"
+            style="@style/Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_common"
+            android:text="즐겨찾기"
+            android:textColor="@color/color_dialog_btn_text"
+            android:textSize="@dimen/dimen_textsize_title" />
+
+        <Button
+            android:id="@+id/btn_dialog_history"
+            style="@style/Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_common"
+            android:text="히스토리"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/color_dialog_btn_text"
+            android:textSize="@dimen/dimen_textsize_title" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/sche_histroy_list"
+        android:layout_width="match_parent"
+        android:layout_height="295dp"
+        android:layout_weight="0.30"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/solid" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/solid"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="장소 : "
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/dialog_history_placeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="장소"
+                android:singleLine="true"
+                android:textColor="#000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="주소 : "
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/dialog_history_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="주소"
+                android:singleLine="true"
+                android:textColor="#000" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp" >
+
+        <Button
+            android:id="@+id/btn_dialog_histroy_save"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_common"
+            android:text="확인"
+            android:textColor="@color/color_dialog_btn_text" />
+
+        <Button
+            android:id="@+id/btn_dialog_histroy_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_common"
+            android:text="취소"
+            android:textColor="@color/color_dialog_btn_text" />
+    </LinearLayout>
+
+</LinearLayout>

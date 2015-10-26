@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"><![CDATA[PassionFive]]></string>
+    <string name="layout_titlebar_title"><![CDATA[검색어를 입력하세요]]></string>
+    <string name="weather_url"><![CDATA[http://weather.yahooapis.com/forecastrss?w=1132599&u=c]]></string>
+    <string name="data_loading"><![CDATA[데이터 불러오는 중...]]></string>
+    <string name="check_network"><![CDATA[데이터 불러오기에 실패했습니다.\n네트워크 접속 상태를 확인하세요.]]></string>
+    <string name="app_finish"><![CDATA[‘뒤로’버튼을 한번 더 누르시면 종료됩니다.]]></string>
+    
+    <string name="btn_done"><![CDATA[확인]]></string>
+    <string name="btn_async"><![CDATA[AsyncTaskTest]]></string>
+    
+    <string name="menu_item_01"><![CDATA[홈]]></string>
+    <string name="menu_item_02"><![CDATA[가계부]]></string>
+    <string name="menu_item_03"><![CDATA[스케줄러]]></string>
+    <string name="menu_item_04"><![CDATA[즐겨찾기]]></string>
+    <string name="menu_item_05"><![CDATA[검색]]></string>
+    <string name="menu_item_06"><![CDATA[설정]]></string>
+    <string name="str_done">완료</string>
+
+</resources>

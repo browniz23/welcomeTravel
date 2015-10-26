@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/img_titlebar_background"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp" >
+
+    <Button
+        android:id="@+id/btn_menu"
+        style="@style/Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_menu" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/layout_titlebar_title"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dimen_textsize_title"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/ed_title"
+        style="@style/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:hint="@string/layout_titlebar_title"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dimen_textsize_title"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_search"
+        style="@style/Btn.Menu.search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+</LinearLayout>

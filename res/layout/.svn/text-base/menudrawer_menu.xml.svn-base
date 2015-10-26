@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_menu_background"
+    android:scrollbars="none" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layout_titlebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_titlebar_background"
+            android:focusable="false"
+            android:visibility="invisible" 
+            android:orientation="horizontal"/>
+
+        <Button
+            android:id="@+id/btn_menu_01"
+            android:layout_below="@+id/layout_titlebar"
+            style="@style/Btn.Menu.01" />
+
+        <Button
+            android:id="@+id/btn_menu_02"
+            android:layout_below="@+id/btn_menu_01"
+            style="@style/Btn.Menu.02" />
+
+        <Button
+            android:id="@+id/btn_menu_03"
+            android:layout_below="@+id/btn_menu_02"
+            style="@style/Btn.Menu.03" />
+
+        <Button
+            android:id="@+id/btn_menu_04"
+            android:layout_below="@+id/btn_menu_03"
+            style="@style/Btn.Menu.04" />
+
+       
+
+        
+    </RelativeLayout>
+
+</ScrollView>

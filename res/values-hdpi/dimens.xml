@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="dimen_textsize_title">18sp</dimen>
+    <dimen name="dimen_textsize_menu">17sp</dimen>
+    <dimen name="dimen_textsize_dialog">16sp</dimen>
+    <dimen name="dimen_textsize_progress">18sp</dimen>
+    
+    <dimen name="dimen_content_padding">15dp</dimen>
+    <dimen name="dimen_menu_padding">10dp</dimen>
+
+</resources>
